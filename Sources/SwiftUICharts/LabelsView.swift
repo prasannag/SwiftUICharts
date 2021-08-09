@@ -22,7 +22,7 @@ struct LabelsView: View {
                 if index % self.threshold == 0 {
                     Text(bar.label)
                         .multilineTextAlignment(.center)
-                        .foregroundColor(.accentColor)
+                        .foregroundColor(.secondary)
                         .font(.caption)
                     Spacer()
                 }

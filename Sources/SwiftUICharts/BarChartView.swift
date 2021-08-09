@@ -127,7 +127,7 @@ struct BarChartView_Previews : PreviewProvider {
         return HStack(spacing: 0) {
             BarChartView(dataPoints: DataPoint.mock, limit: limitBar)
             BarChartView(dataPoints: DataPoint.mock, limit: limitBar)
-        }.chartStyle(BarChartStyle(showLabels: false, showLegends: false))
+        }.preferredColorScheme(.dark).chartStyle(BarChartStyle(showLabels: true, showLegends: false))
     }
 }
 #endif
